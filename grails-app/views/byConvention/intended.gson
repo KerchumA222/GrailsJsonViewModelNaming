@@ -1,0 +1,7 @@
+model {
+    String intended
+}
+
+json {
+    message intended
+}

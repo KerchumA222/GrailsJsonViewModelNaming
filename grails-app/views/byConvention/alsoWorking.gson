@@ -1,0 +1,5 @@
+model {
+    String string
+}
+
+json tmpl.msg(string)
