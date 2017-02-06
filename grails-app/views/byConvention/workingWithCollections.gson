@@ -1,0 +1,7 @@
+model {
+    List<String> stringList
+}
+
+json {
+    messages tmpl.msg(stringList)
+}

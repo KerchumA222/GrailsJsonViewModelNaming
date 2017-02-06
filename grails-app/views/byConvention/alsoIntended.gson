@@ -1,0 +1,7 @@
+model {
+    List<String> alsoIntended
+}
+
+json {
+    messages tmpl.msg(alsoIntended)
+}
