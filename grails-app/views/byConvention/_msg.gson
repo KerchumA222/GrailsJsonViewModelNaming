@@ -1,7 +1,8 @@
 model {
-    String msg
+    //works with everything now
+    String string
 }
 
 json {
-    message msg
+    message string
 }
